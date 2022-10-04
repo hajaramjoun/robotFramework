@@ -1,0 +1,3 @@
+ robot --variablefile .\Data\JDD.py .\test\test01.roboters\ib\Desktop\robotFrameWork\robotFramework> -d results 
+ Commande pour executer le fichier 
+ 
