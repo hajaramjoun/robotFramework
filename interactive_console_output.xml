@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0.1 (Python 3.10.7 on win32)" generated="20221003 16:51:08.757" rpa="false" schemaversion="3">
+<suite id="s1" name="Robot Interactive Console" source="c:\Users\ib\.vscode\extensions\robocorp.robotframework-lsp-1.2.0\src\robotframework_ls\vendored\robotframework_interactive\robot_interactive_console.robot">
+<test id="s1-t1" name="Default Task/Test" line="5">
+<kw name="Interpreter Main Loop" library="MainLoop">
+<kw name="accepte cokies Amazon">
+<msg timestamp="20221003 16:51:09.585" level="FAIL">No keyword with name 'accepte cokies Amazon' found.</msg>
+<status status="FAIL" starttime="20221003 16:51:09.585" endtime="20221003 16:51:09.585"/>
+</kw>
+<kw name="clique list compte">
+<status status="NOT RUN" starttime="20221003 16:51:09.588" endtime="20221003 16:51:09.588"/>
+</kw>
+<kw name="sendkey element telephone">
+<status status="NOT RUN" starttime="20221003 16:51:09.590" endtime="20221003 16:51:09.590"/>
+</kw>
+<kw name="verifier que le message d'erreur s'affiche">
+<status status="NOT RUN" starttime="20221003 16:51:09.592" endtime="20221003 16:51:09.592"/>
+</kw>
+<status status="PASS" starttime="20221003 16:51:08.782" endtime="20221003 16:51:11.089"/>
+</kw>
+<status status="PASS" starttime="20221003 16:51:08.781" endtime="20221003 16:51:11.089"/>
+</test>
+<status status="PASS" starttime="20221003 16:51:08.759" endtime="20221003 16:51:11.090"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Robot Interactive Console">Robot Interactive Console</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

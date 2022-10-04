@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0.1 (Python 3.10.7 on win32)" generated="20221003 15:38:07.761" rpa="false" schemaversion="3">
+<suite id="s1" name="Test01" source="C:\Users\ib\Desktop\robotFrameWork\test01.robot">
+<test id="s1-t1" name="Testing" line="8">
+<kw name="Begin web test" library="ressourses" type="SETUP">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${WEBAPPURL}</arg>
+<arg>${BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20221003 15:38:07.976" level="INFO">Opening browser 'chrome' to base url 'http://www.amazon.fr'.</msg>
+<status status="PASS" starttime="20221003 15:38:07.975" endtime="20221003 15:38:10.135"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20221003 15:38:10.135" endtime="20221003 15:38:10.303"/>
+</kw>
+<status status="PASS" starttime="20221003 15:38:07.975" endtime="20221003 15:38:10.304"/>
+</kw>
+<kw name="accepte cokies Amazon" library="ressourses">
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>css=#sp-cc-accept</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20221003 15:38:10.306" level="INFO">Clicking element 'css=#sp-cc-accept'.</msg>
+<status status="PASS" starttime="20221003 15:38:10.305" endtime="20221003 15:38:10.445"/>
+</kw>
+<status status="PASS" starttime="20221003 15:38:10.304" endtime="20221003 15:38:10.445"/>
+</kw>
+<kw name="clique list compte" library="ressourses">
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>css=#nav-link-accountList</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20221003 15:38:10.447" level="INFO">Clicking element 'css=#nav-link-accountList'.</msg>
+<status status="PASS" starttime="20221003 15:38:10.446" endtime="20221003 15:38:11.139"/>
+</kw>
+<status status="PASS" starttime="20221003 15:38:10.446" endtime="20221003 15:38:11.139"/>
+</kw>
+<kw name="sendkey element telephone" library="ressourses">
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>css=#ap_email</arg>
+<arg>0hhghjgghffg</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20221003 15:38:11.140" level="INFO">Typing text '0hhghjgghffg' into text field 'css=#ap_email'.</msg>
+<status status="PASS" starttime="20221003 15:38:11.140" endtime="20221003 15:38:11.243"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>css=#continue</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20221003 15:38:11.243" level="INFO">Clicking element 'css=#continue'.</msg>
+<status status="PASS" starttime="20221003 15:38:11.243" endtime="20221003 15:38:11.632"/>
+</kw>
+<status status="PASS" starttime="20221003 15:38:11.140" endtime="20221003 15:38:11.633"/>
+</kw>
+<kw name="Close All Browsers" library="SeleniumLibrary" type="TEARDOWN">
+<doc>Closes all open browsers and resets the browser cache.</doc>
+<status status="PASS" starttime="20221003 15:38:11.634" endtime="20221003 15:38:13.813"/>
+</kw>
+<status status="PASS" starttime="20221003 15:38:07.974" endtime="20221003 15:38:13.815"/>
+</test>
+<status status="PASS" starttime="20221003 15:38:07.762" endtime="20221003 15:38:13.818"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Test01">Test01</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
